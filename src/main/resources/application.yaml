@@ -1,0 +1,18 @@
+
+server:
+  address: 127.0.0.1
+  port: 8080
+spring:
+  security:
+    user:
+      name: admin
+      password: admin
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/jboot-admin?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  sendgrid:
+    api-key: /user
+mybatis:
+  type-aliases-package: com.bofei.BofeiProgram.*.entity
